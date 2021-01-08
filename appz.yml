@@ -1,7 +1,7 @@
     app:
         name: MySQL
         code: mysql
-        notify: appzdev@cloudbourne.co
+        notify: ssomwanshi@maximaconsulting.net
 
     build:
         version: 5.7
@@ -12,7 +12,7 @@
         image_name: ssomwanshi/mysql
 
     deploy:
-        context: alpha/DEV
+        context: ssomwanshi/DEV
         type: statefulset
         replicas: 1
         port:
