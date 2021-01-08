@@ -9,7 +9,7 @@
         build_file: none
         output_files: output/*.zip
         image_template: mysql-5.7
-        image_name: alpha/mysql
+        image_name: ssomwanshi/mysql
 
     deploy:
         context: alpha/DEV
