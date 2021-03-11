@@ -12,7 +12,7 @@
         
 
     deploy:
-        context: sssomwanshi/DEV
+        context: ssomwanshi/DEV
         type: statefulset
         replicas: 1
         port:
