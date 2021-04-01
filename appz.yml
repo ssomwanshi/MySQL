@@ -1,7 +1,7 @@
     app:
         name: MySQL
         code: mysql
-        notify: ssomwanshi@maximaconsulting.net
+        notify: ssomwanshi
     build:
         version: 5.7
         env: DEV
